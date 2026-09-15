@@ -5,8 +5,8 @@ from umqtt.simple import MQTTClient
 import ujson
 
 # Configuracion
-WIFI_SSID = "Redmi 10"
-WIFI_PASSWORD = "minumero"
+WIFI_SSID = "PETRA"
+WIFI_PASSWORD = "PETRA2021"
 
 MQTT_BROKER = "broker.hivemq.com"
 MQTT_TOPIC = b"facetracking/tuta/servo"  # Debe coincidir con el publisher

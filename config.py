@@ -1,6 +1,7 @@
 # cSpell: disable
 # pylint: disable=all
 # ruff: noqa
+import os
 
 CAMERA_CONFIG = {"index": 0, "width": 640, "height": 480, "fps": 30}
 
@@ -20,7 +21,9 @@ SERVO_CONFIG = {
 
 ROBOFLOW_CONFIG = {
     "model_id": "proyectoia-x1a1m/6",
-    "api_key": "G3DInDmk3SRmV3S74mMJ",
+    # Por seguridad la API key se toma de la variable de entorno ROBOFLOW_API_KEY.
+    # En desarrollo puede asignarse aquí como cadena, pero NO subirla al repo.
+    "api_key": os.environ.get("ROBOFLOW_API_KEY"),
     "confidence": 0.4,  # Reducido para mejor detección
     "tracking_confidence": 0.85,  # Reducido de 0.90 a 0.85
 }

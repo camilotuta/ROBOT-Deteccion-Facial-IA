@@ -1,7 +1,7 @@
 {
   "pan_direction": "stop",
   "pan": 90,
-  "tilt": 160.0,
+  "tilt": 123.90000000000128,
   "tracking": false,
   "target": "laura",
   "error": {
@@ -10,5 +10,5 @@
   },
   "distance": 0.0,
   "confidence": 0,
-  "timestamp": "2025-11-14T14:24:14.713700"
+  "timestamp": "2025-11-15T16:12:52.054810"
 }
